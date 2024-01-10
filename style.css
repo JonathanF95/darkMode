@@ -24,9 +24,11 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+
 }
 
 body {
+  scroll-behavior: smooth;
   margin: 0;
   font-family: Comfortaa, sans-serif;
   color: var(--on-background);
@@ -58,6 +60,7 @@ h2 {
 nav {
   z-index: 10;
   position: fixed;
+  font-family: Oswald, sans-serif;
   font-size: 24px;
   letter-spacing: 3px;
   padding: 25px;
